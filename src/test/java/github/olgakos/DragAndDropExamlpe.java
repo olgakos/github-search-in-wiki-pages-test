@@ -1,10 +1,9 @@
-package mymail.ok2304;
+package github.olgakos;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
-//для @BeforeAll
 import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Configuration.browserSize;
 
