@@ -35,6 +35,7 @@ public class GitHubSearchInWikiTest {
         $(".markdown-body").shouldHave(text("Using JUnit5 extend test class:"));
 
         //Commit2 - 1
+        //Commit2 - 2
 
     }
 }
