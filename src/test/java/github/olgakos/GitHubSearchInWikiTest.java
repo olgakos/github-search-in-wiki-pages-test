@@ -33,5 +33,9 @@ public class GitHubSearchInWikiTest {
 //Assert
         $(".markdown-body").shouldHave(text("JUnit5 extension - com.codeborne.selenide.junit5.SoftAssertsExtension"));
         $(".markdown-body").shouldHave(text("Using JUnit5 extend test class:"));
+
+        //Commit 1
+        //Commit 2
+        //Commit 3
     }
 }
