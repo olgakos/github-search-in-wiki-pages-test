@@ -36,6 +36,7 @@ public class GitHubSearchInWikiTest {
 
         //Commit2 - 1
         //Commit2 - 2
+        //Commit2 - 3
 
     }
 }
