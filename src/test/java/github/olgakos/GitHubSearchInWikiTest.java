@@ -1,25 +1,14 @@
 package github.olgakos;
 
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Configuration.baseUrl;
-import static com.codeborne.selenide.Configuration.browserSize;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.open;
 
 public class GitHubSearchInWikiTest {
 
-    @DisplayName("Тест на поиск в GitHub-Wiki")
-    @BeforeAll
-    static void openBrowser() {
-//Arrange
-        baseUrl = "https://github.com";
-        browserSize = "1920x1080";
-    }
     @DisplayName("Тест на поиск в GitHub-Wiki")
     @Test
     void searchInGitHubsWiki (){
