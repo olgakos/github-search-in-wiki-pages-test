@@ -2,8 +2,8 @@ plugins {
     id 'java'
 }
 
-group 'mymail.ok2304'
-version '1.0-SNAPSHOT'
+group 'github.olgakos'
+version '1.0'
 
 repositories {
     mavenCentral()
@@ -33,14 +33,6 @@ def selenideVersion = "6.2.1",
 tasks.withType(JavaCompile) {
    options.encoding = 'UTF-8'
 }
-
-//fix3: вариант:
-tasks.withType(JavaCompile) {
-    options.encoding = 'UTF-8'
-}
-
-
-
 
 //кириллица
 //compileTestJava {
